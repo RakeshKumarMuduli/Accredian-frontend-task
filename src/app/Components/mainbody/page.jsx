@@ -1,4 +1,4 @@
-
+"use client"
 
 import Modal from '@/app/Screens/modals/page';
 import React, { useState } from 'react';

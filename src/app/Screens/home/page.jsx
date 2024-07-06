@@ -1,4 +1,4 @@
-// src/App.js
+"use client"
 import React, { useState } from 'react';
 import Modal from '@/app/Screens/modals/page';
 import Image from 'next/image';

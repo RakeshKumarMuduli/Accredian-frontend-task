@@ -1,3 +1,4 @@
+"use client"
 import Head from 'next/head';
 import Modal from '@/app/Screens/modals/page';
 import React, { useState } from 'react';

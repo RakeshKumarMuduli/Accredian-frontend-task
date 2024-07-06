@@ -1,5 +1,6 @@
-
-import React, { useState } from 'react';
+"use client"
+import React from 'react';
+import { useState } from 'react';
 
 const FAQPage = () => {
   const [faqs, setFaqs] = useState([
