@@ -1,7 +1,7 @@
-"use client"
-import React, { useState } from 'react';
-import Modal from '@/app/Screens/modals/page';
 
+
+import Modal from '@/app/Screens/modals/page';
+import React, { useState } from 'react';
 const page = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
