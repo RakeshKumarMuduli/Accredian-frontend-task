@@ -1,4 +1,4 @@
-// src/app/Screens/home/page.jsx
+
 
 'use client'; // Add this if needed, make sure it's before any imports
 

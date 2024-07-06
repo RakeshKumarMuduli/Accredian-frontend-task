@@ -7,11 +7,12 @@ const Modal = ({ onClose }) => {
   const { register, handleSubmit, formState: { errors } } = useForm();
 
   const onSubmit = async(data) => {
+    onClose();
     console.log(data);
     console.log(data.refereeName);
     const response = await axios.post('http://localhost:3500/refferAccount', data);
     console.log('Data successfully submitted:', response);
-    onClose();
+    
   };
 
   return (
